@@ -51,7 +51,7 @@ You may use the `Time` in your Nova resource :
 ```php
 // app/Nova/User.php
 
-use Oneduo\NovaTimeField\File;
+use Oneduo\NovaTimeField\Time;
 
 class User extends Resource
 {
@@ -61,7 +61,7 @@ class User extends Resource
     {
         return [
             // ... any other fields
-            File::make(__('time'), 'time'),
+            Time::make(__('time'), 'time'),
         ];
     }
 }
