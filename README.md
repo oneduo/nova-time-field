@@ -33,8 +33,8 @@
 
 This package requires the following :
 
-- PHP 8.1 or higher
-- Laravel 8.0 or higher
+- PHP 8.0 or higher
+- Laravel Nova 4.0 or higher
 
 ### Installing
 
@@ -46,30 +46,35 @@ composer require oneduo/nova-time-field
 
 That's it, you're ready to go!
 
-### Configuration
-
-You may publish the package's configuration by running the following command :
-
-```bash
-php artisan vendor:publish --tag="nova-time-field-config"
-```
-
-> **Note** You can find details about the configuration options in the [configuration file section](#configuration-file).
-
 ## Usage <a name="usage"></a>
 
-//
+You may use the `Time` in your Nova resource :
 
-## Configuration file <a name = "configuration-file"></a>
+```php
+// app/Nova/User.php
 
-//
+use Oneduo\NovaTimeField\File;
+
+class User extends Resource
+{
+    // ...
+
+    public function fields(NovaRequest $request): array
+    {
+        return [
+            // ... any other fields
+            File::make(__('time'), 'time'),
+        ];
+    }
+}
+```
 
 ## Authors <a name = "authors"></a>
 
 - [Mikaël Popowicz](https://github.com/mikaelpopowicz)
 - [Charaf Rezrazi](https://github.com/rezrazi)
 
-See also the list of [contributors](https://github.com/oneduo/nova-file-manager/contributors) who
+See also the list of [contributors](https://github.com/oneduo/nova-time-field/contributors) who
 participated in this project.
 
 ## Changelog
