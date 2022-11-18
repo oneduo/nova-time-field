@@ -4,7 +4,7 @@
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-![PHP](https://img.shields.io/badge/PHP-8.1-blue.svg)
+![PHP](https://img.shields.io/badge/PHP-8.0-blue.svg)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/oneduo/nova-time-field.svg)](https://packagist.org/packages/oneduo/nova-time-field)
 [![Downloads](https://img.shields.io/packagist/dt/oneduo/nova-time-field.svg)](https://packagist.org/packages/oneduo/nova-time-field)
 [![Run tests](https://github.com/oneduo/nova-time-field/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/oneduo/nova-time-field/actions/workflows/tests.yml)
