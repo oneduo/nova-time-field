@@ -19,7 +19,6 @@
   - [Installing](#installing)
   - [Configuration](#configuration)
 - [Usage](#usage)
-- [Configuration](#configuration-file)
 - [Authors](#authors)
 - [Changelog](#changelog)
 - [Security](#security)
