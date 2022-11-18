@@ -1,0 +1,2 @@
+providers:
+  - Spatie\LaravelRay\RayServiceProvider

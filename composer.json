@@ -1,0 +1,69 @@
+{
+  "name": "oneduo/nova-time-field",
+  "description": "A Laravel Nova time field",
+  "keywords": [
+    "laravel",
+    "nova",
+    "time",
+    "field"
+  ],
+  "homepage": "https://github.com/oneduo/nova-time-field",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mikaël Popowicz",
+      "email": "mikael@popowicz.fr"
+    },
+    {
+      "name": "Charaf Rezrazi",
+      "email": "charaf@rezrazi.fr"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "laravel/nova": "^4.0"
+  },
+  "require-dev": {
+    "guzzlehttp/guzzle": "^7.0.1",
+    "laravel/pint": "^1.2",
+    "mockery/mockery": "^1.5",
+    "orchestra/testbench": "^6.24|^7.6",
+    "pestphp/pest": "^1.21",
+    "pestphp/pest-plugin-laravel": "^1.2",
+    "pestphp/pest-plugin-mock": "^1.0",
+    "spatie/laravel-ray": "^1.29"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oneduo\\NovaTimeField\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Oneduo\\NovaTimeField\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "pint": [
+      "./vendor/bin/pint"
+    ],
+    "test": [
+      "XDEBUG_MODE=coverage ./vendor/bin/pest --coverage"
+    ]
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "infection/extension-installer": false
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
