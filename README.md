@@ -17,7 +17,6 @@
 - [Getting Started](#getting_started)
   - [Prerequisites](#prerequisites)
   - [Installing](#installing)
-  - [Configuration](#configuration)
 - [Usage](#usage)
 - [Authors](#authors)
 - [Changelog](#changelog)
