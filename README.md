@@ -1,4 +1,4 @@
-<h3 align="left">Laravel Nova Time field</h3>
+# Laravel Nova Time field
 
 <div align="left">
 
